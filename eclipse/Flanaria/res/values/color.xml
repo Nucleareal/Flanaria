@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="TweetBackGround0">#FF000000</color>
+
+    <color name="Transparent">#00000000</color>
+
+    <color name="Buttons_ButtonsBackColor">#9F3F0000</color>
+    <color name="Buttons_ButtonsPushedColor">#9FFF0000</color>
+
+
+    <color name="Buttons_Post0">#7F7F0000</color>
+    <color name="Buttons_Post1">#7FCF0000</color>
+    <color name="Buttons_Post2">#A7FF0000</color>
+
+    <color name="Buttons_PostText0">#FF7F7F7F</color>
+    <color name="Buttons_PostText1">#7FCFCFCF</color>
+    <color name="Buttons_PostText2">#FFFFFFFF</color>
+
+    <color name="BLACK">#FF000000</color>
+
+    <color name="TweetFrame_Default">#FF2F0000</color>
+    <color name="TweetFrame_InReplyToMe">#FFFF0000</color>
+    <color name="TweetFrame_MyTweet">#FF7F0000</color>
+    <color name="TweetFrame_DirectMessage">#FF5F0000</color>
+
+    <color name="Gradient_Flanaria_Start">#FF7F0000</color>
+    <color name="Gradient_Flanaria_End">#FF7F0000</color>
+    
+    <color name="Notify_BackColor">#AF7F0000</color>
+
+    <color name="List_BackColor">#FF1F0000</color>
+    <color name="List_SelectColor">#FF3F0000</color>
+    <color name="Tweet_Text">#FFFFEFEF</color>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/List_BackColor">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        >
+        <EditText
+            android:id="@+id/Search_Text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:gravity="top"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+    	    android:paddingRight="8dp"
+    	    android:layout_gravity="center_vertical"
+    	    
+    	    android:layout_marginTop="4dp"
+    	    android:layout_marginBottom="4dp"
+        />
+        <ImageButton
+        	android:id="@+id/Search_Button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/MissingImage"
+	        android:src="@drawable/action_search"
+	        android:background="@drawable/post_selector"
+	        android:layout_gravity="center_vertical"
+	        
+	        android:paddingLeft="8dp"
+    	    android:paddingRight="8dp"
+    	    android:paddingTop="8dp"
+    	    android:paddingBottom="8dp"
+    	    android:layout_marginRight="4dp"
+    	    android:layout_marginTop="4dp"
+    	    android:layout_marginBottom="4dp"
+    	/>
+	</LinearLayout>
+	<ListView
+	    android:id="@android:id/list"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	/>
+</LinearLayout>

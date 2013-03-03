@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/Menu_Filter_AddFilter"
+        android:title="@string/Menu_Filter_Add_Title"
+    />
+    <item
+        android:id="@+id/Menu_Filter_EditQuery"
+        android:title="@string/Menu_Filter_Query_Title"
+    />
+</menu>

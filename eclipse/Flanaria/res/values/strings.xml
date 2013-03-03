@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TimelineActivity!</string>
+    <string name="app_name">Flanaria</string>
+    <string name="app_version_value">1</string>
+    <string name="app_version_name">α0.0.0.0</string>
+    <string name="app_copyright">© 霊烏路 地(@Nucleareal) 2012</string>
+
+    <string name="ImageView_Replace_Text">アイコン</string>
+
+    <string name="Tweet_Default_Names">{Name} @{ScreenName}</string>
+    <string name="Tweet_Default_Text">{Text}</string>
+    <string name="Tweet_Default_Via">via {Via} at {Time}</string>
+    <string name="Tweet_Default_Retweeted">Retweeted</string>
+
+    <string name="SP_Accounts_TokenA">User_AKey[{Number}]</string>
+    <string name="SP_Accounts_TokenB">User_ASec[{Number}]</string>
+    <string name="SP_Accounts_Active">User_Active[{Number}]</string>
+    <string name="SP_Accounts_FallBackTo">User_FallBackto[{Number}]</string>
+
+    <string name="SP_Query_CompareType_String">CompareType_String[{Number}]</string>
+    <string name="SP_Query_MatchType_String">MatchType_String[{Number}]</string>
+    <string name="SP_Query_MuteSource_String">MuteSource_String[{Number}]</string>
+    <string name="SP_Query_CompareText_String">TweetText_String[{Number}]</string>
+    <string name="SP_Query_EnableRetweet_String">EnableRetweet_String[{Number}]</string>
+
+    <string name="SP_Query_CompareType_Long">CompareType_Long[{Number}]</string>
+    <string name="SP_Query_MatchType_Long">MatchType_Long[{Number}]</string>
+    <string name="SP_Query_MuteSource_Long">MuteSource_Long[{Number}]</string>
+    <string name="SP_Query_CompareText_Long">TweetText_Long[{Number}]</string>
+    <string name="SP_Query_EnableRetweet_Long">EnableRetweet_Long[{Number}]</string>
+    
+    <string name="Notify_Text">{From} {Type} {to}</string>
+    
+    <string name="Loading">Loading…</string>
+    <string name="Source_Message">Somewhere</string>
+
+    <string name="SP_Query_Easy">QueryEasy</string>
+    <string name="SP_Query_Lunatic">QueryLunatic</string>
+
+    <string name="Load_Friends_Completed">Friends Load Completed.</string>
+
+    <string name="Load_Users_Title">ちょっと待ってね</string>
+    <string name="Load_Users_Message">ユーザー読込中だよ…</string>
+
+    <string name="Filter_Make_0">が</string>
+
+    <string name="Filter_String_Source_Description">Source</string>
+    <string name="Filter_String_ContentType_Description">WordType</string>
+    <string name="Filter_String_MatchType_Description">MatchType</string>
+
+    <string name="Settings_Visible_Title">表示</string>
+    <string name="Settings_Visible_Summary">表示に関する設定</string>
+    	<string name="Settings_Visible_PostAct_Title">投稿画面</string>
+    		<string name="Settings_Visible_PostAct_NewElement_Title">最新ツイートを表示</string>
+    		<string name="Settings_Visible_PostAct_NewElement_Summary">UserStreams有効時のみ有効</string>
+    		<string name="Visiable_PostAct_NewElement_Key">PostActivityVisiableNewElement</string>
+    
+    <string name="Settings_Post_Title">投稿</string>
+    <string name="Settings_Post_Summary">投稿に関する設定</string>
+
+    <string name="Settings_Notify_Title">通知</string>
+    <string name="Settings_Notify_Summary">通知に関する設定</string>
+    	<string name="Settings_Notify_Category_Title">通知</string>
+    		<string name="Settings_Notify_Category_Available_Title">通知を有効にする</string>
+    		<string name="Settings_Notify_Category_Available_Summary">各種通知を有効にします</string>
+    		<string name="Settings_Notify_Category_Type_Title">通知する種類</string>
+    		<string name="Settings_Notify_Category_Type_Summary">通知する種類</string>
+
+    <string name="Filter_Long_Source_Description">Source</string>
+    <string name="Filter_Long_MatchType_Description">MatchType</string>
+
+    <string name="Stream_Pause">Pause</string>
+    <string name="Stream_Restart">Restart</string>
+
+    <string name="Refresh_Content_Title">Setting Contents</string>
+	<string name="Refresh_Content_Message">Waiting…</string>
+
+	<string name="Refresh_Title">Refreshing</string>
+	<string name="Refresh_Message">Waiting…</string>
+	
+	<string name="MissingImage">Image</string>
+
+    <string name="Filter_String_Source_0">ScreenName</string>
+    <string name="Filter_String_Source_1">Name</string>
+    <string name="Filter_String_Source_2">Source</string>
+    <string name="Filter_String_Source_3">SourceURL</string>
+    <string name="Filter_String_Source_4">StatusText</string>
+
+    <string name="Filter_String_ContentType_0">語句</string>
+    <string name="Filter_String_ContentType_1">正規表現</string>
+
+    <string name="Filter_String_MatchType_0">を含む</string>
+    <string name="Filter_String_MatchType_1">と完全一致</string>
+
+
+    <string name="Filter_Long_Source_0">UserID</string>
+    <string name="Filter_Long_Source_1">StatusID</string>
+
+    <string name="Filter_Long_MatchType_0">と等価</string>
+    <string name="Filter_Long_MatchType_1">超過</string>
+    <string name="Filter_Long_MatchType_2">未満</string>
+    <string name="Filter_Long_MatchType_3">以上</string>
+    <string name="Filter_Long_MatchType_4">以下</string>
+    <string name="Filter_Long_MatchType_5">以外</string>
+    <string name="Filter_Long_MatchType_6">を含む</string>
+
+    <string name="Query_Menu_Action_Edit">編集</string>
+    <string name="Query_Menu_Action_Copy">複製</string>
+    <string name="Query_Menu_Action_Delete">削除</string>
+
+    <string name="Query_SelectType_String">文字列</string>
+    <string name="Query_SelectType_Long">数値</string>
+
+    <string name="Query_SelectType_Title">フィルタータイプ</string>
+    <string name="Query_Edit_Title">編集</string>
+
+    <string name="Account_Set_No_Fallback">フォールバックしない</string>
+	<string name="Account_FallBack_Summary">\@{ScreenName}のフォールバック先</string>
+
+    <string name="Authorize_Pre_Title">アカウントの認証</string>
+    <string name="Authorize_Pre_Message">"これからTwitterの認証ページが表示されるから、ログインして右下の認証を押してね。わかった？"</string>
+    <string name="Authorize_Pre_Positive">はい</string>
+
+   	<string name="Authorize_Failed">うう、認証に失敗しちゃったよ…</string>
+    <string name="Authorize_Success">"認証に成功したよ！\n{Name}さんよろしくね！"</string>
+
+    <string name="WebView_Waiting">通信中だよ。ちょっと待ってね…</string>
+
+    <string name="Authorize_SubmitButton">認証</string>
+    <string name="Authorize_ReDialog_Title">アカウントの追加</string>
+    <string name="Authorize_ReDialog_Message">続けてほかのアカウントを認証する？</string>
+    <string name="Authorize_ReDialog_Yes">はい</string>
+    <string name="Authorize_ReDialog_No">いいえ</string>
+    <string name="Authorize_ReWaiting_Title">順番待ち</string>
+    <string name="Authorize_ReWaiting_Message">前のアカウントの認証完了を待っています…</string>
+
+    <string name="ProgressBar_Text">読み込み中…</string>
+
+    <string name="Timeline_LoadUser_Title">読込中</string>
+    <string name="Timeline_LoadUser_Message">アカウント情報を読み込んでるよ…</string>
+    <string name="Timeline_LoadStatus_Title">読込中</string>
+    <string name="Timeline_LoadStatus_Message">タイムラインを読み込んでるよ…</string>
+    <string name="Timeline_LoadStatus_Select_Title">読み込み種類</string>
+    <string name="Timeline_LoadStatus_Select_Message">REST APIにする？それともUserStreamsにする？</string>
+    <string name="Timeline_LoadStatus_Select_Positive">REST API</string>
+    <string name="Timeline_LoadStatus_Select_Negative">UserStreams</string>
+    <string name="Timeline_LoadStatus_Select_DontAskAgain">Set to Default</string>
+
+    <string name="Settings_Mute_Title">ミュート</string>
+    <string name="Settings_Mute_Summary">ミュートフィルタの設定</string>
+    <string name="Settings_Mute_Category_Title">ミュート</string>
+    <string name="Settings_Mute_Category_EnableMute_Title">ミュートを使用する</string>
+    <string name="Settings_Mute_Category_EnableMute_Summary">ツイートのフィルタリングを有効にします</string>
+    <string name="Settings_Mute_Category_SelectType_Title">ミュートの種類</string>
+    <string name="Settings_Mute_Category_SelectType_Summary">フィルタリングの種類を設定します</string>
+    <string name="Settings_Mute_Category_SelectType_Key0">Easy(簡易)</string>
+    <string name="Settings_Mute_Category_SelectType_Key1">Hard(詳細)</string>
+    <string name="Settings_Mute_Category_SelectType_Value0">0</string>
+    <string name="Settings_Mute_Category_SelectType_Value1">1</string>
+    <string name="Settings_Mute_Category_Setting_Title">フィルタ設定</string>
+    <string name="Settings_Mute_Category_Setting_Summary"></string>
+
+    <string name="Settings_Fallback_Title">フォールバック</string>
+    <string name="Settings_Fallback_Summary">フォールバックの設定</string>
+    <string name="Settings_Fallback_To_Title">フォールバックユーザー</string>
+
+    <string name="Settings_Active_Title">アクティブ</string>
+    <string name="Settings_Active_Summary">アカウントのアクティブ状態の設定</string>
+    <string name="Settings_Active_Category_Title">アクティブ</string>
+
+    <string name="Settings_OnTap_Title">アクション</string>
+    <string name="Settings_OnTap_Summary">TLを操作した時の動作</string>
+    <string name="Settings_OnTap_SingleShort_Title">シングルタップ</string>
+    <string name="Settings_OnTap_SingleLong_Title">ロングタップ</string>
+    <string name="Settings_OnTap_Double_Title">ダブルタップ</string>
+    <string name="Settings_OnTap_Fling_Title">フリック</string>
+
+    <string name="Settings_OnTap_SingleShort_Left_Title">左</string>
+    <string name="Settings_OnTap_SingleShort_Left_Summary">左短押し時の動作</string>
+    <string name="Settings_OnTap_SingleShort_Middle_Title">中</string>
+    <string name="Settings_OnTap_SingleShort_Middle_Summary">中短押し時の動作</string>
+    <string name="Settings_OnTap_SingleShort_Right_Title">右</string>
+    <string name="Settings_OnTap_SingleShort_Right_Summary">右短押し時の動作</string>
+
+    <string name="Settings_OnTap_SingleLong_Left_Title">左</string>
+    <string name="Settings_OnTap_SingleLong_Left_Summary">左長押し時の動作</string>
+    <string name="Settings_OnTap_SingleLong_Middle_Title">中</string>
+    <string name="Settings_OnTap_SingleLong_Middle_Summary">中長押し時の動作</string>
+    <string name="Settings_OnTap_SingleLong_Right_Title">右</string>
+    <string name="Settings_OnTap_SingleLong_Right_Summary">右長押し時の動作</string>
+
+    <string name="Settings_OnTap_Double_Left_Title">左</string>
+    <string name="Settings_OnTap_Double_Left_Summary">左二回押し時の動作</string>
+    <string name="Settings_OnTap_Double_Middle_Title">中</string>
+    <string name="Settings_OnTap_Double_Middle_Summary">中二回押し時の動作</string>
+    <string name="Settings_OnTap_Double_Right_Title">右</string>
+    <string name="Settings_OnTap_Double_Right_Summary">右二回押し時の動作</string>
+
+    <string name="Settings_OnTap_Fling_LeftToMiddle_Title">左→中</string>
+    <string name="Settings_OnTap_Fling_LeftToMiddle_Summary">左→中フリック時の動作</string>
+    <string name="Settings_OnTap_Fling_LeftToRight_Title">左→右</string>
+    <string name="Settings_OnTap_Fling_LeftToRight_Summary">左→右フリック時の動作</string>
+    <string name="Settings_OnTap_Fling_MiddleToLeft_Title">中→左</string>
+    <string name="Settings_OnTap_Fling_MiddleToLeft_Summary">中→左フリック時の動作</string>
+    <string name="Settings_OnTap_Fling_MiddleToRight_Title">中→右</string>
+    <string name="Settings_OnTap_Fling_MiddleToRight_Summary">中→右フリック時の動作</string>
+    <string name="Settings_OnTap_Fling_RightToMiddle_Title">右→中</string>
+    <string name="Settings_OnTap_Fling_RightToMiddle_Summary">右→中フリック時の動作</string>
+    <string name="Settings_OnTap_Fling_RightToLeft_Title">右→左</string>
+    <string name="Settings_OnTap_Fling_RightToLeft_Summary">右→左フリック時の動作</string>
+
+
+    <string name="Settings_OnTap_SelectType_Value0">何もしない</string>
+    <string name="Settings_OnTap_SelectType_Value1">ふぁぼ</string>
+    <string name="Settings_OnTap_SelectType_Value2">リプライ</string>
+    <string name="Settings_OnTap_SelectType_Value3">リツイート</string>
+    <string name="Settings_OnTap_SelectType_Value4">URLを開く</string>
+    <string name="Settings_OnTap_SelectType_Value5">オプションメニューを開く</string>
+    <string name="Settings_OnTap_SelectType_Value6">非公式RT</string>
+    <string name="Settings_OnTap_SelectType_Value7">ユーザーを表示</string>
+    <string name="Settings_OnTap_SelectType_Value8">ふぁぼる+パクる</string>
+    <string name="Settings_OnTap_SelectType_Value9">TofuBuster</string>
+    <string name="Settings_OnTap_SelectType_Value10">共有</string>
+    <string name="Settings_OnTap_SelectType_Value11">URL引用</string>
+    <string name="Settings_OnTap_SelectType_Value12">Favstarを開く</string>
+    <string name="Settings_OnTap_SelectType_Value13">会話を見る</string>
+
+
+	<string name="Menu_Main_Settings_Title">Settings</string>
+	<string name="Menu_Main_Settings_GiveBlood">Give your blood</string>
+	<string name="Menu_Main_Settings_NoAction">No Action</string>
+	<string name="Menu_Main_Settings_SearchAccounts">Search 2char Account</string>
+
+	<string name="Menu_Filter_Add_Title">Add Query</string>
+
+    <string name="Buttons_PostButton_Align">Post</string>
+
+    <string name="Post_Button_Text">投稿</string>
+    <string name="Post_Count_Default">140</string>
+
+    <string name="AutoComplete_Prefix">＠</string>
+
+
+    <string name="Post_Posted">Posted on {ScreenNames}</string>
+    <string name="Post_Favorited">Favorited on {ScreenNames}</string>
+    <string name="Post_FavoriteAndRespected">FavRespected on {ScreenNames}</string>
+    <string name="Post_Retweeted">Retweeted on {ScreenNames}</string>
+
+    <string name="NoAccountsActive">アクティブアカウントが設定されてないよ！</string>
+
+    <string name="ActiveAccount_Summary">をアクティブにする</string>
+
+
+    <string name="URL_Select_Cancel">Cancel</string>
+
+    <string name="Retweet_Prefix"> RT @{ScreenName}: </string>
+    <string name="Status_URL">https://twitter.com/{ScreenName}/status/{StatusID}</string>
+    <string name="Status_STOT">{ScreenName}: {Text} [{StatusURL}]</string>
+    <string name="FavstarStatusURL">http://ja.favstar.fm/users/{ScreenName}/status/{StatusID}</string>
+
+    <string name="ContextMenu_Image_Description">画像</string>
+    <string name="ContextMenu_Text_Default">？</string>
+
+    <string name="Dialog_Filter_Title">ミュート設定(簡易)</string>
+    <string name="Dialog_Filter_text">\@User, $ClientName, Wordを\nカンマで区切って入力してください</string>
+    <string name="Dialog_Filter_Positive">OK</string>
+    <string name="Dialog_Filter_Negative">Cancel</string>
+
+    <string name="Filter_Make_ContainRetweet">リツイートも含む</string>
+
+    <string name="Query_Show_DefaultText">条件</string>
+    <string name="Menu_Filter_Query_Title">Edit Total Query</string>
+    <string name="Dialog_Query_Lunatic_text">{n}:String Query,\n[n]:Numeric Query,\nRT:Retweet,\n&amp;&amp;, ||, !</string>
+
+    <string name="Query_Empty_Text">クエリがありません。\nメニューから追加してください。</string>
+
+    <string name="StatusLoadWay_Default_Setting_Key">StatusLoadWayKey</string>
+    <string name="StatusLoadWay_Default_Setting_Value">StatusLoadWayValue</string>
+    <string name="StatusLoadWay_Default_Setting_Title">規定値を使用する</string>
+    <string name="StatusLoadWay_Default_Setting_Summary">TL読み込み方法にデフォルト設定を使用する</string>
+
+    <string name="Operation_Failed">Operation Failed.\nNo Active Accounts?</string>
+
+    <string name="Pref_ExtraSettings">FlanariaExtraSettings</string>
+
+    <string name="Text_Version">Version</string>
+
+    <string name="XPref_Flanaria_Title">よく見つけたね</string>
+    <string name="XPref_Flanaria_Summary">すごいね</string>
+
+    <string name="Pref_Copyright">著作権表示</string>
+
+    <string name="Lovely_Text">LovelyPoint</string>
+
+    <string name="Menu_Main_Stream_Title">---</string>
+    <string name="Menu_Main_Stream_Title_Connect">Connect</string>
+    <string name="Menu_Main_Stream_Title_Disconnect">Disconnect</string>
+
+    <string name="Positive">OK</string>
+
+    <string name="Menu_Main_AddAccounts_Title">Add Account</string>
+
+    <string name="Post_Button_UploadImage_Text">画像</string>
+    <string name="Post_Button_Convert_Text">変換</string>
+
+    <string name="Settings_Debug_Title">データ消去</string>
+    <string name="Settings_Debug_Summary">各種データの消去を行います</string>
+
+    <string name="Conversation_Loading">Loading…</string>
+
+    <string name="Open_ContextMenu_Title">Create Menu…</string>
+    <string name="Open_ContextMenu_Summary">Waiting…</string>
+
+    <string name="Content_Desc">Banner</string>
+
+    <string name="OK">OK</string>
+
+    <string name="License_Url">http://twitter4j.org/</string>
+    <string name="License_String"><pre>
+                                 Apache License\n
+                           Version 2.0, January 2004\n
+                        http://www.apache.org/licenses/\n
+\n
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n
+\n
+   1. Definitions.\n
+\n
+      "License" shall mean the terms and conditions for use, reproduction,\n
+      and distribution as defined by Sections 1 through 9 of this document.\n
+\n
+      "Licensor" shall mean the copyright owner or entity authorized by\n
+      the copyright owner that is granting the License.\n
+\n
+      "Legal Entity" shall mean the union of the acting entity and all\n
+      other entities that control, are controlled by, or are under common\n
+      control with that entity. For the purposes of this definition,\n
+      "control" means (i) the power, direct or indirect, to cause the\n
+      direction or management of such entity, whether by contract or\n
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n
+      outstanding shares, or (iii) beneficial ownership of such entity.\n
+\n
+      "You" (or "Your") shall mean an individual or Legal Entity\n
+      exercising permissions granted by this License.\n
+\n
+      "Source" form shall mean the preferred form for making modifications,\n
+      including but not limited to software source code, documentation\n
+      source, and configuration files.\n
+\n
+      "Object" form shall mean any form resulting from mechanical\n
+      transformation or translation of a Source form, including but\n
+      not limited to compiled object code, generated documentation,\n
+      and conversions to other media types.\n
+\n
+      "Work" shall mean the work of authorship, whether in Source or\n
+      Object form, made available under the License, as indicated by a\n
+      copyright notice that is included in or attached to the work\n
+      (an example is provided in the Appendix below).\n
+\n
+      "Derivative Works" shall mean any work, whether in Source or Object\n
+      form, that is based on (or derived from) the Work and for which the\n
+      editorial revisions, annotations, elaborations, or other modifications\n
+      represent, as a whole, an original work of authorship. For the purposes\n
+      of this License, Derivative Works shall not include works that remain\n
+      separable from, or merely link (or bind by name) to the interfaces of,\n
+      the Work and Derivative Works thereof.\n
+\n
+      "Contribution" shall mean any work of authorship, including\n
+      the original version of the Work and any modifications or additions\n
+      to that Work or Derivative Works thereof, that is intentionally\n
+      submitted to Licensor for inclusion in the Work by the copyright owner\n
+      or by an individual or Legal Entity authorized to submit on behalf of\n
+      the copyright owner. For the purposes of this definition, "submitted"\n
+      means any form of electronic, verbal, or written communication sent\n
+      to the Licensor or its representatives, including but not limited to\n
+      communication on electronic mailing lists, source code control systems,\n
+      and issue tracking systems that are managed by, or on behalf of, the\n
+      Licensor for the purpose of discussing and improving the Work, but\n
+      excluding communication that is conspicuously marked or otherwise\n
+      designated in writing by the copyright owner as "Not a Contribution."\n
+\n
+      "Contributor" shall mean Licensor and any individual or Legal Entity\n
+      on behalf of whom a Contribution has been received by Licensor and\n
+      subsequently incorporated within the Work.\n
+\n
+   2. Grant of Copyright License. Subject to the terms and conditions of\n
+      this License, each Contributor hereby grants to You a perpetual,\n
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n
+      copyright license to reproduce, prepare Derivative Works of,\n
+      publicly display, publicly perform, sublicense, and distribute the\n
+      Work and such Derivative Works in Source or Object form.\n
+
+   3. Grant of Patent License. Subject to the terms and conditions of\n
+      this License, each Contributor hereby grants to You a perpetual,\n
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n
+      (except as stated in this section) patent license to make, have made,\n
+      use, offer to sell, sell, import, and otherwise transfer the Work,\n
+      where such license applies only to those patent claims licensable\n
+      by such Contributor that are necessarily infringed by their\n
+      Contribution(s) alone or by combination of their Contribution(s)\n
+      with the Work to which such Contribution(s) was submitted. If You\n
+      institute patent litigation against any entity (including a\n
+      cross-claim or counterclaim in a lawsuit) alleging that the Work\n
+      or a Contribution incorporated within the Work constitutes direct\n
+      or contributory patent infringement, then any patent licenses\n
+      granted to You under this License for that Work shall terminate\n
+      as of the date such litigation is filed.\n
+\n
+   4. Redistribution. You may reproduce and distribute copies of the\n
+      Work or Derivative Works thereof in any medium, with or without\n
+      modifications, and in Source or Object form, provided that You\n
+      meet the following conditions:\n
+\n
+      (a) You must give any other recipients of the Work or\n
+          Derivative Works a copy of this License; and\n
+
+      (b) You must cause any modified files to carry prominent notices\n
+          stating that You changed the files; and\n
+\n
+      (c) You must retain, in the Source form of any Derivative Works\n
+          that You distribute, all copyright, patent, trademark, and\n
+          attribution notices from the Source form of the Work,\n
+          excluding those notices that do not pertain to any part of\n
+          the Derivative Works; and\n
+\n
+      (d) If the Work includes a "NOTICE" text file as part of its\n
+          distribution, then any Derivative Works that You distribute must\n
+          include a readable copy of the attribution notices contained\n
+          within such NOTICE file, excluding those notices that do not\n
+          pertain to any part of the Derivative Works, in at least one\n
+          of the following places: within a NOTICE text file distributed\n
+          as part of the Derivative Works; within the Source form or\n
+          documentation, if provided along with the Derivative Works; or,\n
+          within a display generated by the Derivative Works, if and\n
+          wherever such third-party notices normally appear. The contents\n
+          of the NOTICE file are for informational purposes only and\n
+          do not modify the License. You may add Your own attribution\n
+          notices within Derivative Works that You distribute, alongside\n
+          or as an addendum to the NOTICE text from the Work, provided\n
+          that such additional attribution notices cannot be construed\n
+          as modifying the License.\n
+\n
+      You may add Your own copyright statement to Your modifications and\n
+      may provide additional or different license terms and conditions\n
+      for use, reproduction, or distribution of Your modifications, or\n
+      for any such Derivative Works as a whole, provided Your use,\n
+      reproduction, and distribution of the Work otherwise complies with\n
+      the conditions stated in this License.\n
+\n
+   5. Submission of Contributions. Unless You explicitly state otherwise,\n
+      any Contribution intentionally submitted for inclusion in the Work\n
+      by You to the Licensor shall be under the terms and conditions of\n
+      this License, without any additional terms or conditions.\n
+      Notwithstanding the above, nothing herein shall supersede or modify\n
+      the terms of any separate license agreement you may have executed\n
+      with Licensor regarding such Contributions.\n
+\n
+   6. Trademarks. This License does not grant permission to use the trade\n
+      names, trademarks, service marks, or product names of the Licensor,\n
+      except as required for reasonable and customary use in describing the\n
+      origin of the Work and reproducing the content of the NOTICE file.\n
+\n
+   7. Disclaimer of Warranty. Unless required by applicable law or\n
+      agreed to in writing, Licensor provides the Work (and each\n
+      Contributor provides its Contributions) on an "AS IS" BASIS,\n
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n
+      implied, including, without limitation, any warranties or conditions\n
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n
+      PARTICULAR PURPOSE. You are solely responsible for determining the\n
+      appropriateness of using or redistributing the Work and assume any\n
+      risks associated with Your exercise of permissions under this License.\n
+\n
+   8. Limitation of Liability. In no event and under no legal theory,\n
+      whether in tort (including negligence), contract, or otherwise,\n
+      unless required by applicable law (such as deliberate and grossly\n
+      negligent acts) or agreed to in writing, shall any Contributor be\n
+      liable to You for damages, including any direct, indirect, special,\n
+      incidental, or consequential damages of any character arising as a\n
+      result of this License or out of the use or inability to use the\n
+      Work (including but not limited to damages for loss of goodwill,\n
+      work stoppage, computer failure or malfunction, or any and all\n
+      other commercial damages or losses), even if such Contributor\n
+      has been advised of the possibility of such damages.\n
+\n
+   9. Accepting Warranty or Additional Liability. While redistributing\n
+      the Work or Derivative Works thereof, You may choose to offer,\n
+      and charge a fee for, acceptance of support, warranty, indemnity,\n
+      or other liability obligations and/or rights consistent with this\n
+      License. However, in accepting such obligations, You may act only\n
+      on Your own behalf and on Your sole responsibility, not on behalf\n
+      of any other Contributor, and only if You agree to indemnify,\n
+      defend, and hold each Contributor harmless for any liability\n
+      incurred by, or claims asserted against, such Contributor by reason\n
+      of your accepting any such warranty or additional liability.\n
+\n
+Twitter4J SUBCOMPONENTS:\n
+\n
+Twitter4J includes software from JSON.org to parse JSON response from the Twitter API. You can see the license term at http://www.JSON.org/license.html\n
+</pre></string>
+</resources>

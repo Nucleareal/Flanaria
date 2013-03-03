@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- フォーカスを得たとき -->
+  <item
+    android:state_focused="true"
+    android:state_enabled="true"
+    android:state_pressed="false"
+    android:drawable="@color/Buttons_Post2" />
+  <!-- ボタンが無効で、かつフォーカスを得たとき -->
+  <item
+    android:state_focused="true"
+    android:state_enabled="false"
+    android:state_pressed="false"
+    android:drawable="@color/Buttons_Post0" />
+  <!-- ボタンが押されたとき -->
+  <item
+    android:state_focused="true"
+    android:state_enabled="true"
+    android:state_pressed="true"
+    android:drawable="@color/Buttons_Post2" />
+  <item
+        android:state_checked="true"
+        android:state_pressed="true"
+        android:drawable="@color/Buttons_Post2"
+        />
+	<item
+        android:state_checked="false"
+        android:state_pressed="true"
+        android:drawable="@color/Buttons_Post2"
+        />
+  <!-- ボタンが無効なとき -->
+  <item
+    android:state_enabled="false"
+    android:drawable="@color/Buttons_Post0" />
+  <!-- 通常の状態 -->
+  <item
+    android:drawable="@color/Buttons_Post1" />
+</selector>

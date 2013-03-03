@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Mute_Category_SelectType_EntryKeys">
+        <item>@string/Settings_Mute_Category_SelectType_Key0</item>
+        <item>@string/Settings_Mute_Category_SelectType_Key1</item>
+    </string-array>
+
+    <string-array name="Mute_Category_SelectType_EntryValues">
+        <item>@string/Settings_Mute_Category_SelectType_Value0</item>
+        <item>@string/Settings_Mute_Category_SelectType_Value1</item>
+    </string-array>
+
+    <string-array name="OnTap_SelectType_EntryKeys">
+        <item>@string/Settings_OnTap_SelectType_Value0</item>
+        <item>@string/Settings_OnTap_SelectType_Value1</item>
+        <item>@string/Settings_OnTap_SelectType_Value2</item>
+        <item>@string/Settings_OnTap_SelectType_Value3</item>
+        <item>@string/Settings_OnTap_SelectType_Value4</item>
+        <item>@string/Settings_OnTap_SelectType_Value5</item>
+        <item>@string/Settings_OnTap_SelectType_Value6</item>
+        <item>@string/Settings_OnTap_SelectType_Value7</item>
+        <item>@string/Settings_OnTap_SelectType_Value8</item>
+        <item>@string/Settings_OnTap_SelectType_Value9</item>
+        <item>@string/Settings_OnTap_SelectType_Value10</item>
+        <item>@string/Settings_OnTap_SelectType_Value11</item>
+        <item>@string/Settings_OnTap_SelectType_Value12</item>
+        <item>@string/Settings_OnTap_SelectType_Value13</item>
+    </string-array>
+
+    <string-array name="OnTap_SelectType_EntryValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+    </string-array>
+
+   	<string-array name="Filter_String_Source">
+   	    <item>@string/Filter_String_Source_0</item>
+   	    <item>@string/Filter_String_Source_1</item>
+   	    <item>@string/Filter_String_Source_2</item>
+   	    <item>@string/Filter_String_Source_3</item>
+   	    <item>@string/Filter_String_Source_4</item>
+   	</string-array>
+   	<string-array name="Filter_String_ContentType">
+   	    <item>@string/Filter_String_ContentType_0</item>
+   	    <item>@string/Filter_String_ContentType_1</item>
+   	</string-array>
+   	<string-array name="Filter_String_MatchType">
+   	    <item>@string/Filter_String_MatchType_0</item>
+   	    <item>@string/Filter_String_MatchType_1</item>
+   	</string-array>
+
+   	<string-array name="Filter_Long_Source">
+   	    <item>@string/Filter_Long_Source_0</item>
+   	    <item>@string/Filter_Long_Source_1</item>
+   	</string-array>
+   	<string-array name="Filter_Long_MatchType">
+   	    <item>@string/Filter_Long_MatchType_0</item>
+   	    <item>@string/Filter_Long_MatchType_1</item>
+   	    <item>@string/Filter_Long_MatchType_2</item>
+   	    <item>@string/Filter_Long_MatchType_3</item>
+   	    <item>@string/Filter_Long_MatchType_4</item>
+   	    <item>@string/Filter_Long_MatchType_5</item>
+   	    <item>@string/Filter_Long_MatchType_6</item>
+   	</string-array>
+</resources>

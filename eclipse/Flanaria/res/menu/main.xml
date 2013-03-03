@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/Menu_Main_Stream_Change"
+        android:title="@string/Menu_Main_Stream_Title_Connect"
+        android:icon="@drawable/av_play"
+    />
+    <item
+        android:id="@+id/Menu_Main_AddAccounts"
+        android:title="@string/Menu_Main_AddAccounts_Title"
+        android:icon="@drawable/social_add_person"
+    />
+    <item
+        android:id="@+id/Menu_Main_GiveBlood"
+        android:title="@string/Menu_Main_Settings_GiveBlood"
+        android:icon="@drawable/av_make_available_offline"
+    />
+    <item
+        android:id="@+id/Menu_Main_Search"
+        android:title="@string/Menu_Main_Settings_SearchAccounts"
+        android:icon="@drawable/navigation_cancel"
+    />
+    <item
+        android:id="@+id/Menu_Main_Nothing2"
+        android:title="@string/Menu_Main_Settings_NoAction"
+        android:icon="@drawable/navigation_cancel"
+    />
+    <item
+        android:id="@+id/Menu_Main_Settings"
+        android:title="@string/Menu_Main_Settings_Title"
+        android:icon="@drawable/device_access_storage"
+    />
+</menu>
